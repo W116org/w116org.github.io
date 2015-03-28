@@ -1,65 +1,10 @@
 <!DOCTYPE html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="description" content="Mercedes-Benz W116 S-Class Enthusiasts Group : Forum - Gallery - Library">
-<meta name="publisher" content="W116.org">
-<meta name="keywords" content="W116, w116, 116, 280S, 280SE, 280SEL, 300SD, 350SE, 350SEL, 450SE, 450SEL, 450SEL 6.9, S-Class, Mercedes, Mercedes-Benz, Forum, Gallery, Library">
+{% include head.html %}
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<body>
 
-<!-- Optional
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/yeti/bootstrap.min.css"> theme -->
-
-<title>
-W116 {{ page.title }} : Mercedes-Benz S-Class - 280S, 280SE, 280SEL, 300SD, 350SE, 350SEL, 450SE, 450SEL &amp; 450SEL 6.9
-</title>
-</head>
-<body><div class="navbar navbar-default">
-<div class="container">
-<div class="navbar-header">
-<a href="../" class="navbar-brand">W116.org : S-Class Enthusiasts</a>
-<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-</div>
-<div class="navbar-collapse collapse" id="navbar-main">
-<ul class="nav navbar-nav navbar-right">
-<li>
-<a href="//forum.w116.org">forum</a>
-</li>
-<li>
-<a href="//gallery.w116.org">gallery</a>
-</li>
-<li>
-<a href="//handbook.w116.org/">handbook</a>
-</li>
-<li><a href="//www.w116.org/library">library</a></li>
-<li class="dropdown">
-<a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
- <ul class="dropdown-menu" style="padding:12px;">
-<!-- Google CSE Search Box Begins -->
-<form class="navbar-form" id="searchbox_003343643230027729303:0egu1ztveue" action="http://www.w116.org/search.php">
-<div class="form-group">
-  <input type="hidden" name="cx" value="003343643230027729303:0egu1ztveue" />
-  <input name="q" type="text" size="30" class="form-control" placeholder="Search" />
-  <input type="hidden" name="sa" value="Search" />
-  <input type="hidden" name="cof" value="FORID:9" />
-</div>
-</form>
-<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_003343643230027729303%3A0egu1ztveue"></script>
-<!-- Google CSE Search Box Ends -->
- </ul>
-</li>
-</ul>
-
-</div>
-</div>
-</div> <!-- End of navigation menu -->
+{% include navbar.html %}
 
 {{ content }}
 
