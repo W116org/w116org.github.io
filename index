@@ -9,26 +9,15 @@ permalink: /
 <h1>W116</h1>
 <h2>Mercedes-Benz S-Class</h2>
 <h3>280S : 280SE : 280SEL : 300SD : 350SE : 350SEL : 450SE : 450SEL : 450SEL 6.9</h3>
+
+      <div class="row">
+        <div class="col-md-8">
 <p>A completely newly developed luxury car was presented to the public in September 1972. The Mercedes-Benz S-Class (internal designation: W116) replaced the 108/109 series and was the first series for which the name "S-Class" was officially used.</p>
 <p>Initial models consisted of the 280S and 280SE with 2.8&nbsp;L inline-six engines and 350SE with a 3.5&nbsp;L V8 engine. Six months later the S-Class was also available with a larger displacement capacity of the 4.5&nbsp;L V8 engine wearing badges of 450SE and 450SEL, the latter with a 100 mm longer wheel base benefiting the rear passengers. From November 1973 the long wheel-base version was also available as the 350SEL, and in April 1974 also as the 280SEL.</p>
 <p>In May 1975 the 450SEL&nbsp;6.9 was presented as the new top model of the range and as the legitimate successor to 300SEL&nbsp;6.3. The powerful 6.9&nbsp;L V8 engine, developed from the 6.3&nbsp;L, achieved 210&nbsp;kW and a maximum torque of 550&nbsp;Nm. A hydropneumatic suspension with level control system guaranteed the highest driving comfort. Further equipment standard on the top model included central locking system, air-conditioning and headlamp washer system.</p>
 <p>In May 1978 the model 300SD was introduced to the USA and Canadian markets. The new S-Class model - for the first time in the history of this vehicle category - was driven by a diesel engine. The 3.0&nbsp;L 5 cylinder, which had proven so well in the types 240D&nbsp;3.0 and 300D, was fitted with a turbocharger. The development of this unusual S-Class variant had been started with the goal to fulfil the lower consumption figures introduced by the US-government.</p>
 <p>In September 1979 types of the series W126 were represented at the Frankfurt motor show as the successor of the first S-Class range. W116 production stopped between April and September 1980, depending on the type. The last car that passed the final-assembly inspection at the plant in Sindelfingen was a 300SD. A total of 473,035 W116 were built of this model range over eight years.</p>
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-<p>Initial models consisted of the 280S and 280SE with 2.8&nbsp;L inline-six engines and 350SE with a 3.5&nbsp;L V8 engine. Six months later the S-Class was also available with a larger displacement capacity of the 4.5&nbsp;L V8 engine wearing badges of 450SE and 450SEL, the latter with a 100 mm longer wheel base benefiting the rear passengers. From November 1973 the long wheel-base version was also available as the 350SEL, and in April 1974 also as the 280SEL.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-md-4 -->
-        <div class="col-md-4 text-center">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-<p>In May 1975 the 450SEL&nbsp;6.9 was presented as the new top model of the range and as the legitimate successor to 300SEL&nbsp;6.3. The powerful 6.9&nbsp;L V8 engine, developed from the 6.3&nbsp;L, achieved 210&nbsp;kW and a maximum torque of 550&nbsp;Nm. A hydropneumatic suspension with level control system guaranteed the highest driving comfort. Further equipment standard on the top model included central locking system, air-conditioning and headlamp washer system.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-md-4 -->
+        </div><!-- /.col-md-8 -->
         <div class="col-md-4 text-center">
           <img class="img-circle" src="../img/ECOTY1974.png" alt="European Car of the Year" width="140" height="140">
           <h2>Award Winning</h2>
