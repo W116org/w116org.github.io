@@ -58,15 +58,4 @@ permalink: /
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Design</span></h2>
-<p>With initial development commencing in the early 60's, the W116 became the first modern-style car from Stuttgart, with horizontal head lights instead of the classic vertical clusters.</p>
-<p>The W116 was also the last of the flagship vehicles before the extensive use of plastic in body panels such as bumper bars.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
       <!-- /END THE FEATURETTES -->
