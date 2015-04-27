@@ -1,4 +1,2 @@
 gems:
   - jekyll-redirect-from
-
-destination: ./_site
