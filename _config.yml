@@ -1,2 +1,9 @@
+defaults:
+  -
+    values:
+      baseurl: "/W116org.github.io"
+
 gems:
   - jekyll-redirect-from
+
+
