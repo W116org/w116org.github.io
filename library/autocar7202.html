@@ -10,9 +10,9 @@ published: true
 <div id="content" class="container">
 
 <div class="page-header">
-  <h1>{{page.title}}</h1>
-  <h2>{{page.title}}</h2>
-  <p class="lead">{{page.title}}</p>
+  {% if page.title %}<h1>{{page.title}}</h1>{% endif %}
+  {% if page.subtitletitle %}<h2>{{page.subtitle}}</h2>{% endif %}
+  {% if page.lead %}<p class="lead">{{page.lead}}</p>{% endif %}
 </div>
 <p>The last Mercedes-Benz eight-cylinder engine to be reviewed in detail by Autocar - indeed the last Mercedes engine of any kind - was the split, in-line straight eight which re-established the three pointed star reputation in post war racing. With its desmodromic valve gear and middle power take-off it was a complex engine. Indeed the recollection of it pre-war Mercedes engines has left the impression in a good many people's minds that all Mercedes engines are complex.</p>
 <div class="well text-center pull-right">
