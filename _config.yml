@@ -7,5 +7,7 @@ pop-img: "w116pop.svg"
 
 cdn: "//cdn.w116.org"
 
+permalink: pretty
+
 gems:
   - jekyll-redirect-from
