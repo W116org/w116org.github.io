@@ -9,6 +9,3 @@ cdn: "//cdn.w116.org"
 
 gems:
   - jekyll-redirect-from
-
-defaults:
-  - permalink: pretty
