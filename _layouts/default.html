@@ -7,10 +7,11 @@
 <meta name="publisher" content="{{site.publisher}}">
 <meta name="keywords" content="{{site.keywords}}">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/crossfade.css">
 <title>
 	{{site.title}}
 </title>
-<style id="jsbin-css">
+<style>
 .navbar-default {
   margin-bottom: 0px;
 }
@@ -21,8 +22,6 @@
 #content p + ul {
     margin-top: -1em;
 }
-.cycle-slideshow img { display: none; width: 100%; }
-.cycle-slideshow img.first { display: block; }
 </style>
 </head>
 
@@ -42,11 +41,7 @@
 
 {% include footer.html %}
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.native/2.0.6/bootstrap-native.min.js"></script>
 <!-- Google Custom Search Engine -->
 <script>
   (function() {
