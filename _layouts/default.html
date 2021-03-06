@@ -28,6 +28,15 @@
 #content p + ul {
     margin-top: -1em;
 }
+/* Menu without javascript */
+/* show the collapse when navbar toggle is checked */
+#navbar-toggle-cbox:checked ~ .collapse {
+    display: block;
+}
+/* the checkbox used only internally; don't display it */
+#navbar-toggle-cbox {
+  display:none
+}
 </style>
 </head>
 
@@ -47,7 +56,6 @@
 
 {% include footer.html %}
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.native/2.0.6/bootstrap-native.min.js"></script>
 <!-- Google Custom Search Engine -->
 <script>
   (function() {
