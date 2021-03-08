@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
+     <div class="container">
+          <a href="/" class="navbar-brand">W116.org : S-Class Enthusiasts</a>
+          <input type="checkbox" id="navbar-toggle-cbox">
+          <label for="navbar-toggle-cbox" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main">
+               <span class="navbar-toggler-icon"></span>
+          </label>
+          <div class="navbar-collapse collapse" id="navbar-main">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="//forum.w116.org/">forum</a></li>
+                    <li><a href="//gallery.w116.org/">gallery</a></li>
+                    <li><a href="/tech/">technical</a></li>
+                    <li><a href="/library/">library</a></li>
+                    <li>
+                         {% include search_g.html %}
+                    </li>
+               </ul>
+          </div>
+     </div>
+</nav> <!-- End of navigation menu -->
