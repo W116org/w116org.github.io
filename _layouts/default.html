@@ -28,6 +28,12 @@
 #content p + ul {
     margin-top: -1em;
 }
+#navbar-toggle-cbox {
+  display:none
+}
+#navbar-toggle-cbox:checked ~ .collapse {
+    display: block;
+}
 </style>
 </head>
 
@@ -47,7 +53,6 @@
 
 {% include footer.html %}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.27/bootstrap-native.min.js" integrity="sha512-2gKLp3G+4TAeygLvVLCFpQrBoMMyeaTkKuAOJkO5DjYX6drUqRMOjfA4fz745VA1vGx376r3fajs+R/SwC5y8w==" crossorigin="anonymous"></script>
 <!-- Google Custom Search Engine -->
 <script>
   (function() {
