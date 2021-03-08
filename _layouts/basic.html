@@ -12,6 +12,12 @@
 	{{site.title}}
 </title>
 <style>
+#navbar-toggle-cbox {
+  display:none;
+}
+#navbar-toggle-cbox:checked ~ .collapse {
+    display: block;
+}
 input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
   -webkit-box-shadow: none;
   -moz-box-sizing: content-box;
@@ -42,7 +48,6 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
 
 </div> <!-- End of content -->
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.native/2.0.6/bootstrap-native.min.js"></script>
 <script>
   (function() {
     var cx = '014336670215032357951:vtn0xkddfnw';
