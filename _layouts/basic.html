@@ -7,7 +7,7 @@
 <meta name="publisher" content="{{site.publisher}}">
 <meta name="keywords" content="{{site.keywords}}">
 <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <title>
 	{{site.title}}
 </title>
@@ -32,13 +32,13 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
 
 <body>
 
-{% include navbar.html %}
+{% include navbar5.html %}
 
 {% if site.pop-img %}
 <object id="pop" type="image/svg+xml" data="{{site.cdn}}/img/{{site.pop-img}}" class="svg center-block img-responsive hidden-xs hidden-sm"></object>
 {% endif %}
 
-{% include header.html %}
+{% include header5.html %}
 
 <div id="content" class="container">
 
