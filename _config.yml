@@ -3,10 +3,8 @@ publisher: "W116.org"
 keywords: "W116, w116, 116, 280S, 280SE, 280SEL, 300SD, 350SE, 350SEL, 450SE, 450SEL, 450SEL 6.9, S-Class, Mercedes, Mercedes-Benz, Forum, Gallery, Library"
 title: "W116 : Mercedes-Benz S-Class - 280S, 280SE, 280SEL, 300SD, 350SE, 350SEL, 450SE, 450SEL &amp; 450SEL 6.9"
 
-site.url: //www.w116.org
+site.url: https://www.w116.org
 site.baseurl: /
-
-url: "https://www.w116.org"
 
 cdn: "https://cdn.w116.org"
 
