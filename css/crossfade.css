@@ -1,6 +1,8 @@
 /*!
  * http://jsfiddle.net/hajmd/
  * https://www.milessebesta.com/web-design/scaling-div-height-proportional-to-width-trick/
+ Set the padding-bottom to the correct percentage, to find this, take your background image height; which in my case was 450px and divide it by the pixel width, which for me was 1280px.
+This 450/1280 = 35.15625%
  */
 
 #crossfade > img {
