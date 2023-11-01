@@ -12,5 +12,7 @@ filepath: "//cdn.w116.org"
 
 permalink: /:path/:basename/
 
+pop-img: "w116pop.svg"
+
 plugins:
   - jekyll-redirect-from
