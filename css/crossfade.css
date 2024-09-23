@@ -5,15 +5,17 @@
 This 450/1280 = 35.15625%
  */
 
+#crossfade {
+    display: grid !important;
+}
+
 #crossfade > img {
+    grid-row: 1;
+    grid-column: 1;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    color: transparent;
-    opacity: 0;
+    margin: auto;    opacity: 0;
     z-index: 0;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -webkit-animation: imageAnimation 30s linear infinite 0s;
     -moz-animation: imageAnimation 30s linear infinite 0s;
